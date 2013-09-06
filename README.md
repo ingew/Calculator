@@ -1,4 +1,4 @@
 Calculator
 ==========
 
-A really beautiful (only power function) calculator
+A really beautiful (only power function) calculator done with HTML, CSS3, Javascript and Twitter Bootstrap.
