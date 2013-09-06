@@ -1,0 +1,71 @@
+
+@font-face {
+font-family: Gotham;
+src: url('gotham_book.ttf');
+}
+
+body{
+    font-family: Gotham;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%) ;
+    max-width: 720px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+
+.container{
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0.6) 0, rgba(0, 0, 255, 0.5) 100%) ;
+    width: 270px;
+    padding: 25px;
+    box-shadow: -6px 9px 10px;
+}
+
+form{
+    position: relative;
+
+}
+
+#output-container{
+    margin: 2px 5px;
+    background: white;
+    box-shadow: -4px 4px 5px -1px;
+}
+
+#output-style{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.1) 100%) ;
+    padding: 5px 0px;
+}
+
+.output{
+   display: block;
+   border: 2px;
+   margin: auto;
+   width: 100%;
+   text-align: right;
+    background: none;
+    padding: 5px 20px;
+font-weight: bold;
+min-height: 32px;
+letter-spacing: normal;
+word-break: break-all;
+    color: black;
+}
+
+
+
+#numeric-container{
+    width: 100%;
+    margin: 20px 0px auto;
+    text-align: center;
+
+}
+
+.btn-default{
+    font-weight: bold;
+    width: 53px;
+    height: 30px;
+    margin: 4px 3px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0, rgba(255,255,255 , 0.8) 100%);
+     box-shadow: -5px 5px 5px -1px;
+}

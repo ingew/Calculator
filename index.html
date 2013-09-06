@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+	<title>Beautiful Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="bootstrap3/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script type="text/javascript" src="bootstrap3/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="bootstrap3/bootstrap.js"></script>
+
+    <script type='text/javascript' src='calculator.js'> </script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <form name='calc'>
+        <div id='output-container'>
+            <div id='output-style'>
+               <div class="output" id='messages' ></div>
+                <div class="output" id='ans' ></div>
+                <div class="output" id='output' ></div>
+
+            </div>
+        </div>
+        <div id='numeric-container'>
+            <input type='button' class="btn btn-default" value=' 7 ' onClick='document.getElementById("output").innerHTML+=7'>
+            <input type='button' class="btn btn-default" value=' 8 ' onClick='document.getElementById("output").innerHTML+=8'>
+            <input type='button' class="btn btn-default" value=' 9 ' onClick='document.getElementById("output").innerHTML+=9'>
+            <br>
+            <input type='button' class="btn btn-default" value=' 4 ' onClick='document.getElementById("output").innerHTML+=4'>
+            <input type='button' class="btn btn-default" value=' 5 ' onClick='document.getElementById("output").innerHTML+=5'>
+            <input type='button' class="btn btn-default" value=' 6 ' onClick='document.getElementById("output").innerHTML+=6'>
+            <br>
+            <input type='button' class="btn btn-default" value=' 1 ' onClick='document.getElementById("output").innerHTML+=1'>
+            <input type='button' class="btn btn-default" value=' 2 ' onClick='document.getElementById("output").innerHTML+=2'>
+            <input type='button' class="btn btn-default" value=' 3 ' onClick='document.getElementById("output").innerHTML+=3'>
+            <br>
+            <input type='button' class="btn btn-default" value=' 0 ' onClick='document.getElementById("output").innerHTML+=0'>
+            <input type="button" class="btn btn-default" style="visibility: hidden;" >
+            <input type="button" class="btn btn-default" style="visibility:hidden" >
+            <br>
+            <input type='button' class="btn btn-default" value=' ^ ' onClick='operationPower()'>
+            <input type='button' class="btn btn-default" value=' C ' onClick='operationReset()'>
+            <input type='button' class="btn btn-default" value=' = ' onClick='operationResult()'>
+            <br>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
